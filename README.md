@@ -135,4 +135,4 @@ qb_site/
 
 ## Support
 
-For questions or issues, contact: hello@quentinbowden.com
+For questions or issues, contact: info@quentindoes.com
