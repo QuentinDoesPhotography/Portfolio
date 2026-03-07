@@ -1,0 +1,39 @@
+{
+  "albums": {
+    "sports": {
+      "title": "Sports Photography",
+      "slug": "sports",
+      "description": "Dynamic sports action capturing the intensity, passion, and decisive moments of athletic competition. From team spirit to individual triumph, these images freeze the power and grace of athletes in motion.",
+      "coverImage": "images/p1420439761-2.jpg",
+      "order": 1
+    },
+    "portrait": {
+      "title": "Portrait",
+      "slug": "portrait",
+      "description": "Authentic portraits that reveal character, emotion, and personality. Whether in studio or natural settings, each image captures the unique essence and story of the individual.",
+      "coverImage": "images/p1033977370-2.jpg",
+      "order": 2
+    },
+    "still-photo": {
+      "title": "Still Photo",
+      "slug": "still-photo",
+      "description": "Carefully crafted still life and product photography showcasing attention to detail, refined lighting, and artistic composition. From commercial work to creative studies exploring form and texture.",
+      "coverImage": "images/p1420444038-2.jpg",
+      "order": 3
+    },
+    "design": {
+      "title": "Design",
+      "slug": "design",
+      "description": "Architectural and design photography celebrating lines, patterns, and spaces. Capturing the intersection of form and function in modern and contemporary environments.",
+      "coverImage": "images/p1420503067-2.jpg",
+      "order": 4
+    },
+    "landscape": {
+      "title": "Landscape",
+      "slug": "landscape",
+      "description": "Exploring the beauty and grandeur of natural and urban landscapes, from sweeping vistas to intimate environmental details.",
+      "coverImage": "images/landscape/p1420502362-4.jpg",
+      "order": 5
+    }
+  }
+}

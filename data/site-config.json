@@ -1,0 +1,25 @@
+{
+  "site": {
+    "title": "Quentin Bowden Photography",
+    "photographer": "Quentin Bowden",
+    "tagline": "Capturing moments that matter",
+    "heroText": "Professional photography showcasing the beauty of life, sport, and design through authentic storytelling and creative vision.",
+    "about": {
+      "bio": "With over a decade of experience in professional photography, I specialize in capturing authentic moments across sports, portraits, and commercial work. My approach combines technical precision with creative storytelling to create images that resonate and endure.",
+      "story": "Photography has been my passion since I first picked up a camera. What started as a hobby capturing local sports events has evolved into a full-time career spanning portrait sessions, commercial projects, and creative collaborations. Every shoot is an opportunity to tell a unique story.",
+      "approach": "I believe in building genuine connections with my subjects, whether that's athletes in the heat of competition, individuals during portrait sessions, or brands looking to showcase their products. This authenticity translates directly into compelling, honest imagery.",
+      "equipment": "Working primarily with professional Canon and Sony systems, I use a range of prime and zoom lenses to adapt to any shooting environment—from fast-paced sports action to controlled studio setups."
+    },
+    "contact": {
+      "email": "hello@quentinbowden.com",
+      "phone": "",
+      "location": ""
+    },
+    "social": {
+      "instagram": "https://instagram.com/quentinbowden",
+      "facebook": "https://facebook.com/quentinbowdenphotography",
+      "twitter": "https://twitter.com/qbowdenphoto",
+      "linkedin": ""
+    }
+  }
+}
