@@ -8,6 +8,7 @@ class Gallery {
         this.masonry = null;
         this.gridElement = document.getElementById('masonryGrid');
         this.currentAlbum = this.gridElement ? this.gridElement.getAttribute('data-album') : null;
+        this.isMobile = window.matchMedia('(max-width: 768px)').matches;
     }
 
     async init() {
@@ -84,8 +85,12 @@ class Gallery {
     }
 
     createGridItem(image, index) {
-        // Calculate staggered delay (50ms per item, max 2000ms)
-        const delay = Math.min(index * 50, 2000);
+        // Calculate staggered delay based on device
+        // Desktop: 40ms per item, max 1400ms (1400ms + 600ms duration = 2000ms total)
+        // Mobile: 10ms per item, max 200ms (200ms + 300ms duration = 500ms total)
+        const delay = this.isMobile 
+            ? Math.min(index * 10, 200)
+            : Math.min(index * 40, 1400);
 
         const item = document.createElement('div');
         item.className = 'grid-item';

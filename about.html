@@ -198,9 +198,10 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
-        // Initialize AOS
+        // Initialize AOS with responsive timing
+        const isMobile = window.matchMedia('(max-width: 768px)').matches;
         AOS.init({
-            duration: 800,
+            duration: isMobile ? 300 : 600,
             easing: 'ease-in-out',
             once: true,
             offset: 100

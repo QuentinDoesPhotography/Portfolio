@@ -144,9 +144,10 @@
     <script src="js/gallery.js"></script>
     <script src="js/lightbox.js"></script>
     <script>
-        // Initialize AOS
+        // Initialize AOS with responsive timing
+        const isMobile = window.matchMedia('(max-width: 768px)').matches;
         AOS.init({
-            duration: 800,
+            duration: isMobile ? 300 : 600,
             easing: 'ease-in-out',
             once: true,
             offset: 100
