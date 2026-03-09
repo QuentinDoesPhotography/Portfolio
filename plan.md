@@ -6,7 +6,7 @@ Let's create a stylish website that can highlight my work and include an "about"
 
 The 27 files in the /images folder should be shown on the home page.
 
-The site should also support curated albums of other images, focused on "sports", "still photo", "portrait", "design" and other relevant sections.
+The site should also support curated albums of other images, focused on "sports", "still photos", "portrait", "design" and other relevant sections.
 
 Ideally the site has a modern carousel or hover effects over the photos.
 

@@ -12,7 +12,7 @@ A modern, responsive photographer portfolio website showcasing professional phot
   - Social sharing (Facebook, Twitter, Pinterest, Copy Link)
   - Image metadata display (title, description, category)
   - Image counter
-- **Curated Albums**: Separate pages for Sports, Portrait, Still Photo, and Design categories
+- **Curated Albums**: Separate pages for Sports, Portrait, Still Photos, and Design categories
 - **Dedicated About Page**: Multi-section biography with services showcase
 - **Mobile Responsive**: Hamburger menu and fully responsive design
 - **Performance Optimized**: 
